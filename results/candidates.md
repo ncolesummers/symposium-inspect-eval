@@ -1,12 +1,14 @@
-# Candidate outputs for the workshop packet (from run-1)
+# Candidate outputs for the workshop packet (v2)
 
-These are suggestions only. You choose.
+Picks are from v2 run-1 unless marked otherwise. These are suggestions only. You choose.
+
+v1 candidates: `git show v1:results/candidates.md`
 
 ## Output 1: clear pass
 
-### abs-01
+### abs-01 (v2 run-1)
 
-Why suggested: Keeps every hedge, notes that the 2-week retention results are missing, and names the main weakness: everyone did the video-only condition first.
+Why suggested: Keeps every hedge, and the newsletter summary itself names the two main weaknesses: everyone did the video-only condition first, and the retention results are not reported.
 
 ABSTRACT
 
@@ -19,76 +21,83 @@ MODEL OUTPUT
 ```text
 ### Key claims in the abstract
 
-- The study evaluated a pilot platform combining video lectures with real-time conversational AI tutoring, comparing it with video-only instruction.
-- Fifty-eight participants (mean age 21.4 years, SD 2.8) completed both conditions: video-only first, then AI-augmented instruction.
-- On the immediate post-test, the AI-augmented condition was associated with a reported average score of 91.8, compared with 83.5 after video-only instruction—a difference of 8.3 points. The abstract reports *p* < .001 and an effect size of *d* = 1.505.
-- The abstract reports that engagement duration was 71.1% higher in the AI-tutoring condition. It does not state whether this difference was statistically significant.
-- The authors characterize the findings as preliminary evidence that conversational AI tutors may improve learning with video instruction. The abstract says delayed retention was assessed, but does not report its results.
+- The study tested a platform combining traditional video lectures with real-time conversational AI tutoring.
+- It involved 58 participants (mean age 21.4 years, SD 2.8). Every participant completed the video-only condition first and the AI-augmented condition second.
+- Immediate post-test scores were higher after the AI-augmented condition: 91.8 versus 83.5 out of 100, a reported difference of 8.3 points (d = 1.505, p < .001).
+- The authors report that engagement duration was 71.1% higher in the AI-tutoring condition. The abstract does not define how engagement duration was measured.
+- The authors describe the results as preliminary evidence that conversational AI tutors may improve learning delivered through videos.
+- The study included a two-week retention assessment, but the abstract gives no results for it, so it does not establish whether retention improved.
+- The abstract also asserts that traditional video instruction has shortcomings in engagement and conceptual learning, but it does not present evidence for that broad claim here.
 
-### What the abstract does not say
+### What a reader would need to know but the abstract does not say
 
-- **Who participated:** how they were recruited, their prior AI knowledge or educational background, or whether they represent the broader population of online learners.
-- **What was taught:** the course content, its length and difficulty, and whether the material was representative of AI education generally.
-- **How the AI tutor worked:** what it could do, how learners interacted with it, and whether the tutor or instructional content was standardized.
-- **How outcomes were measured:** what the tests and engagement measure assessed, whether the tests were validated, and how “engagement duration” was defined.
-- **What happened on the delayed assessment:** the retention scores, comparison between conditions, and whether any difference persisted after two weeks.
-- **Whether the reported differences were statistically reliable beyond the immediate test:** confidence intervals and other details of the statistical analyses are not provided; the abstract also does not report a significance test for engagement.
-- **How many participants completed each assessment** or whether there was missing data or attrition.
-- **Whether other learning conditions were controlled**, such as time spent studying, opportunities to review material, or access to assistance.
-- **Whether the AI tutor caused the differences:** all participants completed video-only instruction first and AI-augmented instruction second. Without a counterbalanced order or separate comparison group, the results cannot rule out effects of practice, order, or time.
-- **How broadly the findings apply:** a small pilot study alone does not establish that the platform will have similar effects in other learner populations or settings.
+- How participants were recruited, what they were learning, and how representative they were of the learners the platform is meant to serve.
+- Whether the two conditions covered the same material for the same amount of time, and what the AI tutor did or how it was configured.
+- How the fixed order was handled: because everyone did video-only first, practice, familiarity, or other order effects could contribute to the score difference.
+- How the tests were designed and validated, and whether the reported scores reflect comparable assessments across conditions.
+- How engagement duration was defined, what it was compared against, and how the 71.1% figure was calculated.
+- The results of the delayed retention assessment, as well as participant attrition or missing data.
+- Uncertainty around the reported estimates, such as confidence intervals, and fuller statistical details.
+- Whether the effects differ across learners or topics, and whether the platform is practical or beneficial in longer-term, real-world use.
+
+### Two-sentence faculty newsletter summary
+
+In a 58-person pilot, participants scored higher on an immediate test after using videos with an AI tutor than after watching videos alone, and the study reported longer engagement in the AI-tutor condition. Because everyone used the video-only approach first, and the abstract does not report the two-week retention results, the findings are promising but preliminary.
 ```
 
 GRADE: C
 
-GRADER'S REASON: C — The submission accurately presents the major findings without overstating them and identifies the missing methodological details, delayed retention results, order-effect controls, and limits to generalizability.
+GRADER'S REASON: GRADE: C — The submission accurately presents the major findings without overstating them and identifies key missing information, including retention results, engagement measurement, participant recruitment, instructional details, and controls for order effects.
 
 ---
 
-### abs-12
+### abs-11 (v2 run-1)
 
-Why suggested: Shorter alternative for a slide. Adds no numbers to an abstract that has none, and asks what 'most' means.
+Why suggested: Shorter alternative. The abstract reports no results, and the summary says so plainly instead of inventing any.
 
 ABSTRACT
 
 ```text
-This paper provides an educational case study regarding our experience in deploying ChatGPT Large Language Models (LLMs) in the Spring 2025 and Fall 2023 offerings of ECE 4320: Power System Analysis and Control at Georgia Tech. As part of course assessments, students were tasked with identifying, explaining, and correcting errors in the ChatGPT outputs corresponding to power factor correction problems. While most students successfully identified the errors in the outputs from the GPT-4 version of ChatGPT used in Fall 2023, students found the errors from the ChatGPT o1 version much more difficult to identify in Spring 2025. As shown in this case study, the role of LLMs in pedagogy, assessment, and learning in power engineering classrooms is an important topic deserving further investigation.
+Secondary school students enrolled in the AP Computer Science Principles (CSP) course commonly utilize web resources (e.g., tutorials, Q\&A sites) to better understand key concepts in the curriculum. The primary obstacle to using these resources is finding information appropriate for the learning task and student's background. In addition to web search, conversational agents are increasingly a viable alternative for CSP students. In this paper, we study the potential of conversational agents to aid secondary school students as they acquire knowledge on CSP concepts. We explore general purpose, generative conversational agents (e.g., ChatGPT) and custom, fixed-response conversational agents built specifically to aid CSP students. We present results from classroom use by 45 high school students in grades 9-11 (ages 14-17) across six CSP sections. Our main contributions are in better understanding how conversational agents can help CSP students and an evaluation of the effectiveness and engagement of different approaches for CSP exploratory search.
 ```
 
 MODEL OUTPUT
 
 ```text
-## Key claims in the abstract
+### Key claims in the abstract
+- Secondary school students in AP Computer Science Principles (CSP) commonly use web resources to help understand curriculum concepts.
+- The abstract identifies finding resources suited to both the learning task and a student’s background as the primary obstacle to using them.
+- Conversational agents are presented as an increasingly viable alternative to web search.
+- The study explores whether conversational agents can support secondary students’ learning of CSP concepts.
+- It considers two kinds of agents: general-purpose generative agents, such as ChatGPT, and custom-built agents with fixed responses.
+- The study involved classroom use by 45 students in grades 9–11, ages 14–17, across six CSP sections.
+- The authors say the paper aims to improve understanding of how agents can help CSP students and evaluates their effectiveness and engagement for exploratory search.
 
-- The paper is an educational case study of the authors’ experience using ChatGPT LLMs in two offerings of Georgia Tech’s ECE 4320: Power System Analysis and Control: Fall 2023 and Spring 2025.
-- In course assessments, students were asked to identify, explain, and correct errors in ChatGPT responses to power factor correction problems.
-- In Fall 2023, most students successfully identified errors in responses from the GPT-4 version of ChatGPT.
-- In Spring 2025, students found errors in responses from ChatGPT o1 much more difficult to identify.
-- The authors argue that the role of LLMs in pedagogy, assessment, and learning in power engineering classrooms deserves further investigation.
+**The abstract does not report the study’s results**, so it does not establish that either type of agent improved learning or engagement.
 
-## What the abstract does not say
+### What a reader would need to know
+- How the classroom study was designed, including its duration, student tasks, and whether students used one or both agent types.
+- How the agents were configured and what topics or queries they covered.
+- How “effectiveness,” “engagement,” and learning were defined and measured.
+- The results, including any differences between agent types, statistics, or student feedback.
+- How students and classes were selected, and what relevant prior experience they had.
+- What limitations or contextual factors might affect how broadly the findings apply.
 
-- How many students took part, or what “most” means in numbers.
-- How the authors measured whether students identified errors successfully or found them difficult.
-- What the errors were, and how many or what kinds of problems and ChatGPT responses were assessed.
-- The exact prompts, model versions or settings, and procedures used to generate the responses.
-- Whether the two offerings used comparable assessments, instruction, grading, or student populations.
-- Whether the observed difference was tested statistically or could be attributed to the model rather than other differences between the offerings.
-- Whether the activity affected students’ learning, performance, or attitudes toward LLMs.
-- How representative the findings are beyond these course offerings.
+### Two-sentence plain-language summary
+Researchers studied how general-purpose and custom-built chat agents might help 45 high school students explore AP Computer Science Principles concepts. The abstract describes the study’s purpose and participants but does not say what the researchers found.
 ```
 
 GRADE: C
 
-GRADER'S REASON: C — The submission accurately captures the abstract’s major claims without overstating them and identifies missing methodological details, quantitative results, comparability information, and learning outcomes.
+GRADER'S REASON: GRADE: C — The submission accurately captures the abstract’s major claims without overstating them and identifies key missing details about results, study design, agent implementations, and evaluation measures.
 
 ---
 
 ## Output 2: disputed case
 
-### abs-04
+### abs-04 (v2 run-1)
 
-Why suggested: Possible overreach that passed. The abstract says 'significant improvements in learning outcomes, specifically a greater gain in grammar'. The output says 'including a greater gain in grammar', which implies other learning gains the abstract does not claim.
+Why suggested: Same overreach as v1, now in the summary too. The abstract says 'significant improvements in learning outcomes, specifically a greater gain in grammar'. The claims say 'including a greater gain in grammar' and the summary says 'gains in learning, particularly grammar', which implies gains beyond grammar. Passed in all three v2 runs.
 
 ABSTRACT
 
@@ -101,43 +110,90 @@ MODEL OUTPUT
 ```text
 ### Key claims in the abstract
 
-- The study addresses what the authors describe as a scarce empirical literature on LLM-based interactive homework in real-world educational settings.
-- The authors developed a prompting strategy for GPT-4 to run interactive homework sessions for high-school students learning English as a second language.
-- The strategy is described as requiring little content preparation; the abstract does not quantify that effort.
-- The authors conducted a randomized controlled trial in four high-school classes, with the treatment group doing GPT-4 homework sessions instead of traditional homework.
-- The authors report significant improvements in learning outcomes and student engagement, including a greater gain in grammar. The abstract does not specify the comparisons or measures behind these findings.
-- Students reportedly expressed high satisfaction with the system and a desire to keep using it after the trial.
-- The authors present the approach as practical and scalable, though the abstract does not provide evidence about its scalability.
+- The study addresses a stated gap in empirical research on LLM-based interactive homework in real-world educational settings.
+- The researchers developed a prompting strategy for GPT-4 to run interactive homework sessions for high-school students learning English as a second language.
+- The strategy is described as requiring little content-preparation effort.
+- In a randomized controlled trial involving four high-school classes, the treatment group used GPT-4 homework sessions instead of traditional homework.
+- The authors report significant improvements in learning outcomes, including a greater gain in grammar, and in student engagement.
+- Students reported high satisfaction with the system and said they wanted to keep using it after the trial.
+- The authors present the approach as a practical, scalable solution; the abstract does not provide evidence about its scalability beyond the study.
 
-### What a reader would need to know
+### What a reader would need to know that the abstract does not say
 
-- How many students took part, how they were assigned, and whether assignment was randomized at the student or class level.
-- The students’ ages, proficiency levels, schools, and relevant background characteristics.
+- How many students took part, and how they were assigned to groups.
+- What the comparison group did and whether groups were similar before the trial.
 - How long the trial lasted and how often students used the system.
-- What the control group did, and whether the two groups had comparable homework time, content, and teacher support.
-- What the GPT-4 sessions involved, including the prompting strategy, feedback, follow-up questions, and safeguards.
-- How learning outcomes and engagement were measured, and whether those measures were validated.
-- The size of the reported effects, their statistical uncertainty, and which outcomes were statistically significant.
-- Whether the analysis accounted for students being grouped in classes, and how missing data or noncompliance were handled.
-- How satisfaction and willingness to continue were collected, and how many students responded.
-- Whether the findings persisted over time or generalized beyond these classes and this subject.
-- What “minimal” content preparation involved in practice, and what costs, technical requirements, or teacher workload the approach entails.
+- What the homework sessions involved, including the prompting strategy and the feedback or follow-up questions provided.
+- How learning outcomes, grammar gains, engagement, and satisfaction were measured.
+- The size of the reported gains, statistical results, and whether other learning outcomes also changed.
+- Whether students’ reported interest in continuing translated into actual continued use.
+- Whether teachers or researchers monitored the sessions, and how accuracy, inappropriate responses, privacy, and access were handled.
+- Whether results would generalize to other schools, subjects, age groups, languages, or longer-term use.
+- What the authors mean by “minimal” preparation effort and “scalable,” and what resources implementation requires.
+
+### Two-sentence faculty newsletter summary
+
+In a randomized trial across four high-school classes, students assigned GPT-4 interactive homework showed reported gains in learning—particularly grammar—and engagement compared with students doing traditional homework. Students also reported being satisfied with the system and wanting to continue using it, though the abstract does not give the size of the effects or details about how long they lasted.
 ```
 
 GRADE: C
 
-GRADER'S REASON: C — The submission includes all major findings without overstating the abstract’s claims and identifies missing methodological, measurement, statistical, and implementation details.
+GRADER'S REASON: GRADE: C — The submission captures the abstract’s major findings without overstating them and identifies important missing methodological, measurement, statistical, and implementation details.
 
 ---
 
-### abs-07
+### abs-05 (v2 run-1)
 
-Why suggested: Understatement that passed. The abstract says the findings 'indicate' GenAI 'can move' learning; the output says they are 'suggesting' it was 'associated with movement'. Rubric line 1 only forbids stating claims more strongly, so the grader cannot penalize misrepresenting the authors in the cautious direction.
+Why suggested: Overreach in the summary that passed. The claims correctly limit the results to students 'around the score cutoff', but the summary reports them for 'this study of 635 students'. In run-3, the same grader failed a different abs-05 output for leaving out exactly this restriction.
 
 ABSTRACT
 
 ```text
-Generative AI (GenAI) tools entered higher education classrooms faster than the field was able to study their effects on learning. One concern is that GenAI may displace the critical thinking and AI literacy that students will need after graduation. This paper reports a Design-Based Research pilot of a GenAI-assisted critical thinking framework, in which ChatGPT was used as a thinking partner in an undergraduate research methods and statistics course during Spring 2025 (N = 14). The mixed-methods design combined pre- and post-intervention measures of statistical learning (AASCDM), AI literacy (MAILS), and critical thinking (WGCTA) with instructor field notes, student artifacts, and student-AI interaction logs. Pre-post tests showed gains on every AASCDM dimension and on eight of nine MAILS dimensions, while WGCTA percentiles did not change. Qualitative analysis identified four themes: the ways students positioned the LLM (as answer generator, validator, or co-thinker); the depth of student engagement (procedural vs. conceptual); occasional humanizing of the tool; and the role of curriculum design in shaping each of the prior three. Read together, the findings indicate that one semester of GenAI-assisted instruction can move domain learning and self-reported AI literacy but does not move standardized critical thinking, and that the modal student-LLM relationship is one of validation instead of dialogue. We end with design principles for the next iteration of the framework and implications for research on adaptive and personalized learning.
+Hybrid human-AI tutoring, where technology and humans jointly facilitate student learning, can be more beneficial than AI-only tutoring. However, preliminary evidence suggests that lower-performing students derive greater benefit from human-AI tutoring than higher-performing students. As such, this study evaluates whether a differentiated tutoring policy can effectively support both groups: human tutors initiate support for lower-performing students, while higher-performing students receive reactive, on-demand support. Using their within-grade median state test scores, we assigned 635 students (grades 5-8) to receive proactive (< median) or reactive ($\geq$ median) tutoring. Using a DiDC design, we compare outcomes across two time periods: fall (AI-only tutoring) and spring (proactive-reactive human-AI tutoring). This quasi-experimental design isolates the effects of proactive-reactive tutoring approaches by comparing the discontinuity in spring outcomes to the fall, where no such discontinuity existed. Using data around the cutoff (Imbens-Kalyanaraman criterion), we find significant overall improvements from human-AI tutoring compared to AI-only baseline: 25% increase in time on task, 36% in skill proficiency, and 61% in academic growth (standardized MAP test). Between proactive and reactive tutoring, we find comparable improvements in time-on-task and skill proficiency. However, proactive tutoring, on average, showed marginally higher MAP growth (75%, p = .065) than reactive tutoring, i.e., proactive tutoring was more beneficial to students farther below the cutoff and helped narrow achievement gaps. Our findings provide evidence that differentiated human-AI tutoring addresses the needs of both groups, offering a practical and cost-effective strategy for scaling hybrid instruction.
+```
+
+MODEL OUTPUT
+
+```text
+### Key claims in the abstract
+
+- The study examined a tutoring policy in which students scoring below their grade’s median state-test score received proactive human-tutor support, while students at or above the median could receive support reactively, on demand.
+- The study included 635 students in grades 5–8. It compared fall AI-only tutoring with spring human-AI tutoring using a quasi-experimental difference-in-differences-in-discontinuities design.
+- In the analyzed data around the score cutoff, the authors report that human-AI tutoring was associated with increases over the AI-only period in time on task (25%), skill proficiency (36%), and standardized MAP academic growth (61%).
+- Proactive and reactive tutoring were associated with comparable improvements in time on task and skill proficiency.
+- The authors report that MAP growth was marginally higher under proactive tutoring than reactive tutoring (75%, *p* = .065), and interpret this as evidence that proactive tutoring may particularly benefit students farther below the cutoff and help narrow achievement gaps.
+
+### What a reader would still need to know
+
+- Where and when the study took place, and how representative the students and schools were.
+- What the AI tutoring and human-tutor support involved, including tutor training, contact time, frequency, and how students accessed on-demand help.
+- How time on task and skill proficiency were defined and measured, and what comparison or denominator the reported percentage increases use—especially the “75%” MAP-growth difference.
+- The actual outcome levels, uncertainty estimates such as confidence intervals, and whether the reported results were adjusted for other differences between students or time periods.
+- How many students were included in the analysis around the cutoff, whether any students missed or did not receive their assigned support, and how missing data were handled.
+- Evidence supporting the design’s assumptions, including robustness to alternative analytic choices and how sensitive results were to the selected bandwidth around the cutoff.
+- Whether the approach was in fact cost-effective: the abstract offers that as a practical implication but gives no cost or resource data.
+
+### Two-sentence faculty newsletter summary
+
+In this study of 635 students in grades 5–8, human-AI tutoring was associated with more time on task, greater skill proficiency, and stronger MAP growth than AI-only tutoring. Proactive and on-demand support showed similar results for time and proficiency, while proactive support showed a marginally higher growth estimate; the abstract does not establish that this difference is conclusive.
+```
+
+GRADE: C
+
+GRADER'S REASON: GRADE: C — The submission presents the major findings without overstating the abstract’s claims, appropriately qualifies the marginal MAP-growth difference, and identifies important missing methodological, contextual, and cost information.
+
+---
+
+## Output 3: clear fail
+
+### abs-05 (v2 run-3)
+
+Why suggested: NOT FROM RUN-1: run-1 has no fails. The closest to a clear fail in any v2 run. The claims drop the 'around the cutoff' restriction and present the gains as applying to the whole spring program.
+
+ABSTRACT
+
+```text
+Hybrid human-AI tutoring, where technology and humans jointly facilitate student learning, can be more beneficial than AI-only tutoring. However, preliminary evidence suggests that lower-performing students derive greater benefit from human-AI tutoring than higher-performing students. As such, this study evaluates whether a differentiated tutoring policy can effectively support both groups: human tutors initiate support for lower-performing students, while higher-performing students receive reactive, on-demand support. Using their within-grade median state test scores, we assigned 635 students (grades 5-8) to receive proactive (< median) or reactive ($\geq$ median) tutoring. Using a DiDC design, we compare outcomes across two time periods: fall (AI-only tutoring) and spring (proactive-reactive human-AI tutoring). This quasi-experimental design isolates the effects of proactive-reactive tutoring approaches by comparing the discontinuity in spring outcomes to the fall, where no such discontinuity existed. Using data around the cutoff (Imbens-Kalyanaraman criterion), we find significant overall improvements from human-AI tutoring compared to AI-only baseline: 25% increase in time on task, 36% in skill proficiency, and 61% in academic growth (standardized MAP test). Between proactive and reactive tutoring, we find comparable improvements in time-on-task and skill proficiency. However, proactive tutoring, on average, showed marginally higher MAP growth (75%, p = .065) than reactive tutoring, i.e., proactive tutoring was more beneficial to students farther below the cutoff and helped narrow achievement gaps. Our findings provide evidence that differentiated human-AI tutoring addresses the needs of both groups, offering a practical and cost-effective strategy for scaling hybrid instruction.
 ```
 
 MODEL OUTPUT
@@ -145,34 +201,76 @@ MODEL OUTPUT
 ```text
 ## Key claims in the abstract
 
-- The paper reports a Design-Based Research pilot using ChatGPT as a thinking partner in an undergraduate research methods and statistics course in Spring 2025, with 14 students.
-- Pre- to post-intervention measures showed gains on every AASCDM dimension and on eight of the nine MAILS dimensions.
-- WGCTA percentiles did not change from pre- to post-intervention.
-- Qualitative analysis identified four themes: how students positioned the LLM (as answer generator, validator, or co-thinker); whether their engagement was procedural or conceptual; occasional humanizing of the tool; and the influence of curriculum design on the other three themes.
-- The authors interpret the findings as suggesting that, in this course and pilot, GenAI-assisted instruction was associated with movement in domain learning and self-reported AI literacy, but not in standardized critical thinking.
-- The authors also report that validation, rather than dialogue, was the modal student–LLM relationship.
-- The paper concludes with design principles for a next iteration of the framework and implications for research on adaptive and personalized learning.
+- Prior evidence suggests hybrid human-AI tutoring may benefit students more than AI-only tutoring, and that lower-performing students may benefit more than higher-performing students.
+- The study examined a differentiated approach with 635 students in grades 5–8: students below their within-grade median state-test score received proactive tutoring, while students at or above the median received reactive, on-demand tutoring.
+- The authors used a quasi-experimental difference-in-difference-in-cutoff (DiDC) design, comparing fall AI-only tutoring with spring human-AI tutoring.
+- Compared with the AI-only fall baseline, the spring tutoring approach was associated with reported increases of 25% in time on task, 36% in skill proficiency, and 61% in academic growth on a standardized MAP test. The abstract describes these overall improvements as statistically significant.
+- Proactive and reactive tutoring were associated with comparable improvements in time on task and skill proficiency.
+- The proactive group had a reported 75% higher average MAP growth than the reactive group, with *p* = .065. The abstract characterizes this as marginal and interprets it as evidence that proactive tutoring may especially benefit students farther below the cutoff and help narrow achievement gaps.
+- The authors conclude that differentiated human-AI tutoring may be a practical and cost-effective way to scale hybrid instruction.
 
 ## What the abstract does not say
 
-- How students were recruited or what their backgrounds and prior experience with GenAI were.
-- Whether there was a comparison or control group, or how the study accounts for changes that might have occurred without the intervention.
-- What the intervention involved in practice: its duration and frequency, specific activities, guidance given to students, or how ChatGPT use was managed.
-- The size and statistical significance of the reported gains, including uncertainty or variation among students.
-- How each measure was administered and scored, and whether the measures were appropriate for this sample and context.
-- What “gains” on the AASCDM and MAILS mean in practical terms, or which MAILS dimension did not show a gain.
-- How the qualitative analysis was conducted, including who coded the data and how the themes were checked.
-- How many students showed each interaction pattern, or how “modal” was determined.
-- Whether the results persisted beyond the semester or related to students’ later performance.
-- How broadly the findings might apply beyond this small pilot in one course.
+- Where and when the study took place, or how students, schools, and tutors were recruited.
+- What the AI tutor and human-tutor support involved, including the content, frequency, duration, and amount of tutoring students actually received.
+- How “time on task,” “skill proficiency,” and academic growth were defined and measured, and what the reported percentages are relative to.
+- The size and uncertainty of the estimated effects—for example, confidence intervals, exact test statistics, and full model results. It also does not explain how to interpret the 75% figure or why *p* = .065 is described as marginal.
+- Whether there were differences between the groups before the intervention, how many students’ data were missing, or whether students received other support during the study.
+- The assumptions and robustness checks behind the quasi-experimental design, including the cutoff bandwidth and how sensitive the results were to analytic choices.
+- Whether the findings persisted beyond spring, or whether they generalize to other grades, subjects, schools, or tutoring systems.
+- How “cost-effective” was assessed; no cost information is provided in the abstract.
+
+## Two-sentence plain-language summary
+
+In this quasi-experimental study, students receiving spring tutoring that combined human support with AI showed higher reported time on task, skill proficiency, and academic growth than during the fall AI-only period. Proactive tutoring was linked to a somewhat higher average growth estimate than on-demand tutoring, but the difference was marginal (*p* = .065).
 ```
 
-GRADE: C
+GRADE: I
 
-GRADER'S REASON: C — The submission includes the abstract’s major findings without overstating them and names the key missing methodological, statistical, participant, and generalizability information.
+GRADER'S REASON: GRADE: I — The submission captures the major findings cautiously, but omits that the results use data near the cutoff and does not identify the unreported cutoff-analysis sample size or proactive/reactive group counts.
 
 ---
 
-## Output 3: clear fail
+### abs-02 (v2 run-2)
 
-No candidate: the grader gave C to every sample in all three runs.
+Why suggested: NOT FROM RUN-1, and arguably a 'fails a defensible answer' case rather than a clear fail. The grader failed it because the 'not stated' list does not mention a control condition or the study's calendar duration, both of which are in the gold. The output is otherwise careful.
+
+ABSTRACT
+
+```text
+This exploratory study examines the classroom deployment of aiPlato, an AI-enabled homework platform, in a large introductory physics course at the University of Texas at Arlington. Designed to support open-ended problem solving, aiPlato provides step-wise feedback and iterative guidance through tools such as "Evaluate My Work" and "AI Tutor Chat", while preserving opportunities for productive struggle. Over four optional extra-credit assignments, the platform captured detailed student interaction data, which were analyzed alongside course performance and end-of-semester survey responses. We examine how students engaged with different feedback tools, whether engagement patterns were associated with performance on the cumulative final exam, and how students perceived the platform's usability and learning value. Students who engaged more frequently with aiPlato tended to achieve higher final exam scores, with a mean difference corresponding to a standardized effect size of approximately 0.81 between high and low engagement groups after controlling for prior academic performance. Usage patterns and survey responses indicate that students primarily relied on iterative, formative feedback rather than solution-revealing assistance. As a quasi-experimental pilot study, these findings do not establish causality and may reflect self-selection effects. Nonetheless, the results demonstrate the feasibility of integrating AI-mediated, step-wise feedback into authentic physics homework and motivate future controlled studies of AI-assisted tutoring systems.
+```
+
+MODEL OUTPUT
+
+```text
+### Key claims in the abstract
+
+- The study explored aiPlato, an AI-enabled homework platform, in a large introductory physics course at the University of Texas at Arlington.
+- Students could use the platform on four optional extra-credit assignments. Its tools offered step-wise feedback and iterative guidance, including “Evaluate My Work” and “AI Tutor Chat.”
+- Students who engaged with aiPlato more frequently tended to earn higher cumulative final-exam scores. The reported difference between high- and low-engagement groups was about 0.81 standard deviations after adjustment for prior academic performance.
+- Platform-use patterns and survey responses suggested that students relied mainly on iterative formative feedback rather than assistance that revealed solutions.
+- The authors describe the study as a quasi-experimental pilot: it does not establish that using aiPlato caused higher scores, and the association may reflect self-selection.
+- The study suggests that integrating AI-mediated, step-wise feedback into physics homework is feasible and supports conducting controlled studies. It does not establish the platform’s effectiveness.
+
+### What a reader would need to know that the abstract does not say
+
+- How many students took part, and what their backgrounds or prior experience were.
+- How “engagement,” “high engagement,” and “low engagement” were defined, and how many students were in each group.
+- The actual final-exam scores, the statistical uncertainty around the estimated difference, and details of the analysis and adjustment for prior academic performance.
+- How many students completed each assignment and the survey, and whether non-participation or missing data could have affected the results.
+- What survey questions or measures were used, and what students reported about usability and learning value.
+- How often students used each tool and how the study determined whether an interaction provided formative feedback or revealed a solution.
+- What other factors—such as motivation, time spent studying, or course attendance—might help explain the association between platform engagement and exam scores.
+- How the platform was introduced and supported, and whether the findings would apply to other courses, institutions, or student groups.
+
+### Two-sentence newsletter summary
+
+In a pilot study in an introductory physics course, students who used the AI homework platform more often tended to score higher on the final exam, even after accounting for prior academic performance. Because participation was optional and the study cannot show that the platform caused the higher scores, the results point to the need for controlled follow-up research.
+```
+
+GRADE: I
+
+GRADER'S REASON: GRADE: I — The submission accurately and cautiously presents the major findings, but its missing-information list omits whether there was a separate comparison/control condition and the study’s calendar duration and assignment timing.
+
+---
