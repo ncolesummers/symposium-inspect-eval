@@ -12,7 +12,7 @@ Draft targets were written by `gpt-6.1-sol` using the prompt in `data/build.py`.
 
 ## abs-01: Beyond Passive Viewing: A Pilot Study of a Hybrid Learning Platform Augmenting Video Lectures with Conversational AI
 
-- [ ] Reviewed
+- [X] Reviewed
 - Source: [2604.15334v1](https://arxiv.org/abs/2604.15334v1) · 208 words
 
 *Reviewer flag:* The abstract says participants were tested within-subjects (everyone did both conditions in a fixed order), then reports engagement "in the experimental group". The draft drops that phrase. The draft also correctly notes that the abstract gives no results for the 2-week retention test.
@@ -42,7 +42,7 @@ Whether the findings generalize to other populations, subjects, or longer-term l
 
 ## abs-02: aiPlato: A Novel AI Tutoring and Step-wise Feedback System for Physics Homework
 
-- [ ] Reviewed
+- [X] Reviewed
 - Source: [2601.09965v1](https://arxiv.org/abs/2601.09965v1) · 206 words
 
 **Abstract**
@@ -71,7 +71,7 @@ Not stated in the abstract:
 
 ## abs-03: An Experience Report on a Pedagogically Controlled, Curriculum-Constrained AI Tutor for SE Education
 
-- [ ] Reviewed
+- [X] Reviewed
 - Source: [2512.11882v1](https://arxiv.org/abs/2512.11882v1) · 209 words
 
 **Abstract**
@@ -100,7 +100,7 @@ The details of the prompting strategy, knowledge base, and prototype limitations
 
 ## abs-04: GPT-4 as a Homework Tutor can Improve Student Engagement and Learning Outcomes
 
-- [ ] Reviewed
+- [X] Reviewed
 - Source: [2409.15981v1](https://arxiv.org/abs/2409.15981v1) · 159 words
 
 **Abstract**
@@ -129,7 +129,7 @@ The details of the prompting strategy and the amount of preparation effort requi
 
 ## abs-05: Improving Hybrid Human-AI Tutoring by Differentiating Human Tutor Roles Based on Student Needs
 
-- [ ] Reviewed
+- [X] Reviewed
 - Source: [2605.11155v1](https://arxiv.org/abs/2605.11155v1) · 239 words
 
 *Reviewer flag:* Claim 1 ("lower-performing students derive greater benefit") is prior evidence the abstract cites as motivation, not this study's finding. The abstract's own concluding claim ("provide evidence that differentiated human-AI tutoring addresses the needs of both groups") is missing. The "Not stated" list has 8 items, the longest of all 12.
@@ -162,7 +162,7 @@ Cost data or a cost-effectiveness analysis supporting the description of the str
 
 ## abs-06: NotebookLM as a Socratic physics tutor: Design and preliminary observations of a RAG-based tool
 
-- [ ] Reviewed
+- [X] Reviewed
 - Source: [2504.09720v3](https://arxiv.org/abs/2504.09720v3) · 169 words
 
 *Reviewer flag:* This study observed teachers, not students. Check that the claims don't imply anything about student outcomes.
@@ -195,7 +195,7 @@ Not stated in the abstract:
 
 ## abs-07: Critical Thinking with Generative AI: A Constraint-First Design Pilot of a Thinking-Partner Intervention
 
-- [ ] Reviewed
+- [X] Reviewed
 - Source: [2609.38029v1](https://arxiv.org/abs/2609.38029v1) · 228 words
 
 **Abstract**
@@ -224,7 +224,7 @@ Whether any changes persisted beyond the semester or generalized to other course
 
 ## abs-08: ChatGPT-5 in Secondary Education: A Mixed-Methods Analysis of Student Attitudes, AI Anxiety, and Hallucination-Aware Use
 
-- [ ] Reviewed
+- [X] Reviewed
 - Source: [2512.04109v1](https://arxiv.org/abs/2512.04109v1) · 221 words
 
 **Abstract**
@@ -253,7 +253,7 @@ Whether the intervention improved learning outcomes or critical AI literacy.
 
 ## abs-09: Can AI support student engagement in classroom activities in higher education?
 
-- [ ] Reviewed
+- [X] Reviewed
 - Source: [2506.18941v1](https://arxiv.org/abs/2506.18941v1) · 221 words
 
 *Reviewer flag:* Only 2 key claims, because the abstract states very little. This is a good test of whether the workflow invents results.
@@ -283,7 +283,7 @@ Whether any engagement effects persisted or translated into learning gains.
 
 ## abs-10: An Empirical Study to Understand How Students Use ChatGPT for Writing Essays
 
-- [ ] Reviewed
+- [X] Reviewed
 - Source: [2501.10551v5](https://arxiv.org/abs/2501.10551v5) · 213 words
 
 *Reviewer flag:* Claim 1 is the abstract's motivation ("impact ... will depend on how students use them"), not a finding.
@@ -314,7 +314,7 @@ Whether ChatGPT use caused changes in learning, critical engagement, enjoyment, 
 
 ## abs-11: Investigating Conversational Agents to Support Secondary School Students Learning CSP
 
-- [ ] Reviewed
+- [X] Reviewed
 - Source: [2604.16213v1](https://arxiv.org/abs/2604.16213v1) · 152 words
 
 *Reviewer flag:* Claim 1 is background about CSP students using web resources. The abstract reports no actual results, so the gold's real content is the "Not stated" list.
@@ -343,7 +343,7 @@ The specific learning tasks, agent implementations, and measures used to assess 
 
 ## abs-12: VArsity: Can Large Language Models Keep Power Engineering Students in Phase?
 
-- [ ] Reviewed
+- [X] Reviewed
 - Source: [2507.20995v1](https://arxiv.org/abs/2507.20995v1) · 123 words
 
 *Reviewer flag:* The abstract gives no numbers ("most students", "much more difficult"). This tests whether the workflow adds quantities.
