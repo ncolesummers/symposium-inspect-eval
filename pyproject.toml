@@ -1,8 +1,9 @@
 [project]
 name = "inspect-evals"
 version = "0.1.0"
-description = "Add your description here"
+description = "Small Inspect evaluation of a claim-extraction workflow, built for a University of Idaho AI Symposium workshop"
 readme = "README.md"
+license = "MIT"
 authors = [
     { name = "Nate Summers", email = "nsummers@uidaho.edu" }
 ]
