@@ -9,15 +9,13 @@ GRADER_MODEL = "openai/gpt-6.1-sol"
 PROMPT = (
     "Extract the key claims from this abstract. "
     "State each claim no more strongly than the abstract does. "
-    "Then list what a reader would need to know that the abstract does not say."
+    "Then list what a reader would need to know that the abstract does not say. "
+    "Finally, write a two-sentence plain-language summary of the findings for a faculty newsletter."
 )
 
-RUBRIC = """1. No claim is stated more strongly than the abstract's own wording.
+RUBRIC = """1. No claim, including the summary, is stated more strongly than the abstract's own wording.
 2. The abstract's major findings are present.
-3. Missing information is named. Grade C if all three hold, otherwise I. Give a one-sentence reason."""
-
-# The rubric does not ask for "GRADE: C", so read the letter the grader starts with.
-GRADE_PATTERN = r"^\W*([CI])\W*[—–:.\-\n]"
+3. Missing information is named. Begin your reply with GRADE: C or GRADE: I, then give a one-sentence reason."""
 
 
 @task
@@ -28,8 +26,6 @@ def claim_extraction() -> Task:
         # Solver: give the model the extraction prompt, then let it answer.
         solver=[system_message(PROMPT), generate()],
         # Scorer: a second model compares the answer to the gold and grades it C or I.
-        scorer=model_graded_qa(
-            instructions=RUBRIC, grade_pattern=GRADE_PATTERN, model=GRADER_MODEL
-        ),
+        scorer=model_graded_qa(instructions=RUBRIC, model=GRADER_MODEL),
         model=WORKFLOW_MODEL,
     )
