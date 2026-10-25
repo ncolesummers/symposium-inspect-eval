@@ -72,4 +72,4 @@ See [`results/provenance.md`](results/provenance.md) and the tags [v1](https://g
 
 ## Workshop
 
-University of Idaho AI Symposium, October 29, 2026: TODO symposium page link. Companion artifact: TODO.
+University of Idaho AI Symposium, October 29, 2026: TODO symposium page link. Companion artifact: [claude.ai/artifact/7gmuhExTHzYgXrMZuVp1KR](https://claude.ai/artifact/7gmuhExTHzYgXrMZuVp1KR#delegate).
